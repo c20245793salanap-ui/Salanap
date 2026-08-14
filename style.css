@@ -1,5 +1,5 @@
 body{
-    background-color: #b80a6f;
+    background-color: #010107;
     line-height: 1.6;
 }
 
@@ -11,9 +11,10 @@ h1 {
 }
 
 header {
-    border-bottom: 1px solid rgb(179, 10, 89);
+    border-bottom: 1px solid rgb(8, 0, 4);
     padding: 2px;
     margin-bottom: 6px;
+    align-items: center;
 }
 
 nav a {
@@ -22,12 +23,28 @@ nav a {
 }
 
 body {
-    background-color: #8a0562;  
+    background-color: #7f75d4;  
     line-height: 1.6;
 }
 
 
 h2 {
-    color: #b40c74;
+    color: #050103;
     font-family: Gill Sans, sans-serif;
 }
+.Services {
+    font-size: 15px;
+    color: rgb(0, 7, 0);
+}
+
+.About{
+    font-size: 15px;
+    color: rgb(2, 0, 0);
+    padding: 0cm;
+}
+.Contact {
+    font-size: 15px;
+    color: #000000
+    
+}
+
