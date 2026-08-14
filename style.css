@@ -1,0 +1,33 @@
+body{
+    background-color: #b80a6f;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 12px;
+    padding: 12px;
+}
+
+header {
+    border-bottom: 1px solid rgb(179, 10, 89);
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+nav a {
+    list-style: none;
+    display: flex;
+}
+
+body {
+    background-color: #8a0562;  
+    line-height: 1.6;
+}
+
+
+h2 {
+    color: #b40c74;
+    font-family: Gill Sans, sans-serif;
+}
