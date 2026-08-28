@@ -61,9 +61,16 @@ main section {
     padding: 15px;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 600px) {
     h1 {
         font-size: 100px;
         color: rgba(4, 245, 24, 0.911);
+    }
+}
+
+@media(max-width:768px) {
+    h2 {
+        font-size: 48 px;
+        color: rgb(10, 184, 33);
     }
 }
