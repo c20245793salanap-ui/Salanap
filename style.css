@@ -1,50 +1,45 @@
-body{
-    background-color: #010107;
-    line-height: 1.6;
-}
-
-h1 {
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: 12px;
-    padding: 12px;
-}
-
-header {
-    border-bottom: 1px solid rgb(8, 0, 4);
-    padding: 2px;
-    margin-bottom: 6px;
-    align-items: center;
-}
-
-nav a {
-    list-style: none;
-    display: flex;
-}
-
 body {
-    background-color: #7f75d4;  
-    line-height: 1.6;
+    text-align: center;
 }
 
-
-h2 {
-    color: #050103;
-    font-family: Gill Sans, sans-serif;
-}
-.Services {
-    font-size: 15px;
-    color: rgb(0, 7, 0);
+ul {
+    list-style: none;
 }
 
-.About{
-    font-size: 15px;
-    color: rgb(2, 0, 0);
-    padding: 0cm;
-}
-.Contact {
-    font-size: 15px;
-    color: #000000
-    
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+
+}
+
+main section {
+    flex: 2;
+    min-width: 400px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#services {
+    padding: 0 50px;
+}
