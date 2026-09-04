@@ -19,3 +19,16 @@ function greet(greetings, names = []) {
     return `${greetings} sa enyu ${names}`;
 }
 console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew"]));
+
+
+const heading = document.querySelector("h1");
+console.log(heading);
+
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
+
+const servicesHeadingHeading = document.querySelector("#services h2");
+console.log(servicesHeadingHeading);
+
+
+

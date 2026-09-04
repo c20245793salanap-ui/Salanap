@@ -3,7 +3,7 @@ body {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 nav {
@@ -19,7 +19,6 @@ nav ul {
     gap: 20px;
     padding: 0;
     margin: 0;
-
 }
 
 main {
@@ -28,29 +27,19 @@ main {
     gap: 30px;
     padding: 50px;
     margin: 50px;
-    max-width: 1200px;
 }
 
 main section {
     flex: 1;
     min-width: 280px;
     border: 2px solid black;
-    padding: 20px;
+    padding: 20px
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.contact {
-    text-align: center;
-}
-
-#contact {
-    text-align: left;
-    padding: 30px;
 }
 
 @media (max-width: 600px) {
@@ -78,16 +67,15 @@ form {
 
     h1 {
         font-size: 100px;
-        color: rgb(9, 238, 20);
+        color: red;
     }
 }
 
 @media (max-width: 768px) {
     h2 {
         font-size: 48px;
-        color: rgb(0, 17, 255);
+        color: blue;
     }
-
 }
 
 nav a {
@@ -99,12 +87,12 @@ nav a:hover {
 }
 
 button {
-    transition: background-color 1.0s ease;
     background-color: black;
     color: white;
-    border-radius: 10px;
-    border: none;
     padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s ease;
 }
 
 button:hover {
