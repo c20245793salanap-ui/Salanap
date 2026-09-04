@@ -22,17 +22,39 @@ console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew
 
 
 const heading = document.querySelector("h1");
-heading.textContent = "YOUR FATHER'S NAME";
-heading.style.color = "purple";
-heading.style.backgroundColor = "violet";
+heading.textContent = "ARJAY C. SALANAP.";
+heading.style.color = "PURPLE";
+heading.style.backgroundColor = "YELLOW";
 heading.style.fontSize = "100px";
 console.log(heading.textContent);
+
+heading.addEventListener("click", function () {
+    heading.style.color = "RED";
+    console.log("Heading was clicked")
+})
 
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
-const servicesHeadingHeading = document.querySelector("#services h2");
-console.log(servicesHeadingHeading);
+const projectsHeadingHeading = document.querySelector("#services h2");
+console.log(projectsHeadingHeading);
+
+const toggleButton = document.querySelector("#switch");
+const body = document.querySelector("body");
+let isOFF = false;
+
+toggleButton.addEventListener("click", function () {
+    isOFF = !isOFF;
+
+    if (isOFF) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+})
+
 
 
 
