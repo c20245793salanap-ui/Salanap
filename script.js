@@ -22,8 +22,10 @@ console.log(greet("Mayung aga", ["Mark", "papalada", "yambot", "mamalada", "moew
 
 
 const heading = document.querySelector("h1");
-heading.textContent = " Your father's name";
-
+heading.textContent = "YOUR FATHER'S NAME";
+heading.style.color = "purple";
+heading.style.backgroundColor = "violet";
+heading.style.fontSize = "100px";
 console.log(heading.textContent);
 
 const contactHeading = document.querySelector("#contact h2");
